@@ -5,13 +5,12 @@ export class Reservation extends React.Component {
     render() {
         return(
             <div className="container-fluid">
-                 <div class="flex-container">
-                    <img className="parallax" src={para1} alt="Kitchen1" />
+                <img className="parallax" src={para1} alt="Kitchen1" />
+                <h1>Opening Hours</h1>
+                <h1>Call For Reservation</h1>
 
-                    <h1>Opening Hours</h1>
-                    <h1>Call For Reservation</h1>
-
-           
+                <div class="flex-container">
+                    
                     <div>
                         Mon-Fri<br/>
                         <b>breakfast</b><br/>

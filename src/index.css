@@ -119,12 +119,13 @@ p {
 
 .flex-container {
   display: flex;
+  
 }
 
 .flex-container > div {
   background-color: transparent;
   border: black 1px solid;
-  margin-top: 10%;
+  margin-left: 50px;
   padding: 20px;
   font-size: 30px;
 }
