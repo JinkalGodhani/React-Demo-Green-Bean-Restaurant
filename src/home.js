@@ -5,6 +5,7 @@ import { ImageCarousel1 } from './ImageCarousel1';
 import { About } from './About';
 import { Reservation } from './Reservation';
 import { Menu } from './Menu';
+import { Menu2 } from './Menu2';
 
 export class Home extends React.Component{
     render() {
@@ -17,6 +18,7 @@ export class Home extends React.Component{
                 <About />
                 <Reservation />
                 <Menu />
+                <Menu2 />
             </div>
         );
     }

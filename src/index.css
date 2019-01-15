@@ -14,12 +14,16 @@ code {
 }
 
 .info-page {
-  margin: 30px;
-  background-color: #2ECC71;
+  margin: 20px;
+  /* background-color: #2ECC71; */
 }
 
 .icon-types {
   list-style-type: none;
+}
+
+.info-page .icon-types li a {
+  font-size: 18px;
 }
 
 .icon-types li {
@@ -34,48 +38,42 @@ code {
 
 .navbar-nav li a {
   color: black;
-  font-size: 12px;
+  font-size: 18px;
+}
+
+.navbar .navbar-brand {
+  font-size: 18px;
+}
+
+.navbar-nav li button {
+  font-size: 18px;
 }
 
 .btn {
   background-color: #2ECC71; 
   color: white;
 }
-/* 
+
+h4{
+  font-size: 2.5rem;
+}
+
 .navbar .navbar-expand-lg{
   margin-top: 15px;
-} */
+} 
 
-/* .carousel-indicators .active {
+ .carousel-indicators .active {
   width: 13px;
   height: 13px;
   margin: 0;
   background-color: #2ecc71;
-} */
+} 
 
 .item{
   width: 100%;
   height: auto;
-  opacity: 0.4;
-} 
-
-.text h1 {
-  left: 0;
-  position:absolute;
-  text-align:center;
-  width: 100%;
-  font-family: "Times New Roman", Times, serif;
-  font-variant: small-caps;
-  font-size: 100px;
-}
-
-.text h4 {
-  left: 0;
-  position:absolute;
-  text-align:center;
-  width: 100%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  /* opacity: 0.4;  */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); 
 }
 
 
@@ -97,8 +95,11 @@ code {
   height: 400px;
 }
 
-.carousel-caption {
-  bottom: 50%;
+.caro_caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .row {
@@ -109,12 +110,13 @@ p {
   font-size: small;
 }
 
-.parallax {
-  opacity: 0.5;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
+
+.content {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .flex-container {
@@ -126,7 +128,49 @@ p {
   background-color: transparent;
   border: black 1px solid;
   margin-left: 50px;
-  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-size: 30px;
+  justify-content: center;
 }
 
+.justify-content-center {
+  display: flex;
+}
+
+.cont1 .card {
+  border: rgba(46, 204, 113, 1) 2px solid !important;
+  background-color: transparent !important;
+}
+
+.cont .cont1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 50%;
+  padding: 20px;
+}
+
+.btn1 {
+  border-color: white;
+  background-color: transparent;
+}
+
+.content .card-deck {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 50%;
+  padding: 20px;
+}
+
+.card-deck .card {
+  background-color: transparent !important;
+  border: white 2px solid !important;
+}

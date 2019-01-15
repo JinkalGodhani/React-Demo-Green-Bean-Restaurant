@@ -1,41 +1,47 @@
 import React from 'react';
-import para1 from './parallax.jpeg';
+import para1 from './carousel1_1.jpeg';
 
 export class Reservation extends React.Component {
     render() {
         return(
-            <div className="container-fluid">
-                <img className="parallax" src={para1} alt="Kitchen1" />
-                <h1>Opening Hours</h1>
-                <h1>Call For Reservation</h1>
+            <div className="container-fluid content">
+                <img src={para1} alt="Kitchen1" />
 
-                <div class="flex-container">
-                    
-                    <div>
-                        Mon-Fri<br/>
-                        <b>breakfast</b><br/>
-                        8:00-12:00<br/>
-                        <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: 'black', borderWidth: 1}}>Order</button>   
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p class="card-text">Mon-Fri</p>
+                            <p class="card-text">Breakfast</p>
+                            <p class="card-text">8.00 - 12.00</p>
+                            <button class="btn1 card-text">Order</button>
+                        </div>
                     </div>
-                    <div>
-                        Mon-Fri<br/>
-                        <b>breakfast</b><br/>
-                        8:00-12:00<br/>
-                        <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: 'black', borderWidth: 1}}>Order</button>   
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p class="card-text">Mon-Fri</p>
+                            <p class="card-text">Breakfast</p>
+                            <p class="card-text">8.00 - 12.00</p>
+                            <button class="btn1 card-text">Order</button>
+                        </div>
                     </div>
-                    <div>
-                        Mon-Fri<br/>
-                        <b>breakfast</b><br/>
-                        8:00-12:00<br/>
-                        <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: 'black', borderWidth: 1}}>Order</button>   
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p class="card-text">Mon-Fri</p>
+                            <p class="card-text">Breakfast</p>
+                            <p class="card-text">8.00 - 12.00</p>
+                            <button class="btn1 card-text">Order</button>
+                        </div>
                     </div>
-                    <div>
-                        Mon-Fri<br/>
-                        <b>breakfast</b><br/>
-                        8:00-12:00<br/>
-                        <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: 'black', borderWidth: 1}}>Order</button>   
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p class="card-text">Mon-Fri</p>
+                            <p class="card-text">Breakfast</p>
+                            <p class="card-text">8.00 - 12.00</p>
+                            <button class="btn1 card-text">Order</button>
+                        </div>
                     </div>
                 </div>
+
             </div>
         );
     }

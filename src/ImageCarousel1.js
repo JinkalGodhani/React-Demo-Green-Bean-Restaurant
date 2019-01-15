@@ -18,9 +18,9 @@ export class ImageCarousel1 extends React.Component {
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src={slide1} alt="Kitchen1" />
-                        <div className="carousel-caption">
+                        <div className="caro_caption">
                             <h1>The <span style={{color: '#2ecc71'}}>delicious</span> food tastes</h1>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h4>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h3>
                             <button className="btn btn_1" type="submit">Order Now</button> 
                             <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: '#2ecc71', borderWidth: 2}}>More Food</button>
                         </div>
@@ -28,9 +28,9 @@ export class ImageCarousel1 extends React.Component {
         
                     <div class="item">
                         <img src={slide2} alt="Kitchen2" />
-                        <div className="carousel-caption">
+                        <div className="caro_caption">
                             <h1>The <span style={{color: '#2ecc71'}}>delicious</span> food tastes</h1>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h4>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h3>
                             <button className="btn btn_1" type="submit">Order Now</button> 
                             <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: '#2ecc71', borderWidth: 2}}>More Food</button>
                         </div>
@@ -38,9 +38,9 @@ export class ImageCarousel1 extends React.Component {
             
                     <div class="item">
                         <img src={slide3} alt="Kitchen3" />
-                        <div className="carousel-caption">
+                        <div className="caro_caption">
                             <h1>The <span style={{color: '#2ecc71'}}>delicious</span> food tastes</h1>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h4>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h3>
                             <button className="btn btn_1" type="submit">Order Now</button> 
                             <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'black', borderColor: '#2ecc71', borderWidth: 2}}>More Food</button>
                         </div>

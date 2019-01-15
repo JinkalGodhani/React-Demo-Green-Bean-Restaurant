@@ -3,7 +3,7 @@ import React from 'react';
 export class InfoPage extends React.Component{
     render() {
         return(
-            <div className="info-page">
+            <div className="info-page" style={{backgroundColor: '#2ECC71'}}>
                 <div className="container">
 
                     <h6 style={{float: 'left'}}>
