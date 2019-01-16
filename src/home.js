@@ -6,6 +6,11 @@ import { About } from './About';
 import { Reservation } from './Reservation';
 import { Menu } from './Menu';
 import { Menu2 } from './Menu2';
+import { Chef } from './Chef';
+import { TextCarousel } from './TextCarousel';
+import { Blog } from './Blog';
+import { Footer } from './Footer';
+import { Copyright } from './Copyright';
 
 export class Home extends React.Component{
     render() {
@@ -19,6 +24,11 @@ export class Home extends React.Component{
                 <Reservation />
                 <Menu />
                 <Menu2 />
+                <Chef /> 
+                <TextCarousel />
+                <Blog />
+                <Footer />
+                <Copyright />
             </div>
         );
     }

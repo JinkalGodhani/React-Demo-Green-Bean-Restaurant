@@ -14,8 +14,9 @@ code {
 }
 
 .info-page {
-  margin: 20px;
-  /* background-color: #2ECC71; */
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #2ECC71;
 }
 
 .icon-types {
@@ -73,7 +74,7 @@ h4{
   width: 100%;
   height: auto;
   /* opacity: 0.4;  */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); 
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
 }
 
 
@@ -95,11 +96,19 @@ h4{
   height: 400px;
 }
 
-.caro_caption {
+.caro_container .text_content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* bottom: 0; */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 .row {
@@ -108,15 +117,6 @@ h4{
 
 p {
   font-size: small;
-}
-
-
-.content {
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 .flex-container {
@@ -147,12 +147,16 @@ p {
 
 .cont .cont1 {
   position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  bottom: 25%;
+  left: 25%; 
+  background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
+  border:  rgba(46, 204, 113, 1) 2px solid !important;
   width: 50%;
   padding: 20px;
+  display: inline;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .btn1 {
@@ -162,15 +166,83 @@ p {
 
 .content .card-deck {
   position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  bottom: 40%;
+  left: 1.5%;
   color: #f1f1f1;
-  width: 50%;
+  background: rgba(0, 0, 0, 0.5); 
+  width: 98.5%;
   padding: 20px;
 }
+
 
 .card-deck .card {
   background-color: transparent !important;
   border: white 2px solid !important;
 }
+
+@media (min-width: 0) {
+  .card-deck .card {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+@media (min-width: 576px) {
+  .card-deck .card {
+    flex: 0 0 calc(50% - 30px);
+  }
+}
+@media (min-width: 768px) {
+  .card-deck .card {
+    flex: 0 0 calc(33.3333333333% - 30px);
+  }
+}
+@media (min-width: 992px) {
+  .card-deck .card {
+    flex: 0 0 calc(25% - 30px);
+  }
+}
+@media (min-width: 1200px) {
+  .card-deck .card {
+    flex: 0 0 calc(20% - 30px);
+  }
+}
+
+.chef_spec {
+  height: 250px;
+  width: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.card-footer {
+  background-color: transparent !important;
+}
+
+
+.txt_col {
+  color: white;
+}
+
+hr {
+  border: 2px !important;
+  border-bottom-style: dotted !important;
+  border-bottom-color: #f1f1f1;
+}
+
+.parallax {
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */

@@ -1,14 +1,14 @@
 import React from 'react';
-import menu from './menu.jpeg';
+import menu from './menu.jpg';
 import food_icon from './food_icon.jpg';
 
 export class Menu2 extends React.Component {
     render() {
         return (
             <div className="container-fluid cont" style={{marginTop: 50}}> 
-                <img src={menu} />
+                <img src={menu} style={{width: '100%'}} />
                 <div className="container cont1">
-                <div className="card">
+                
                     <div className="row">
                         <div className="col-lg-1">
                         </div>
@@ -66,7 +66,7 @@ export class Menu2 extends React.Component {
                         </div>
                     </div>                        
                 </div>
-                </div>
+                
             </div>
         );
     }
