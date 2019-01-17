@@ -11,7 +11,6 @@ export class TextCarousel extends React.Component {
     render() {
         const settings = {
             dots: true,
-            centerMode: true,
             infinite: true,
             autoplay: true,
             autoplaySpeed: 2000,

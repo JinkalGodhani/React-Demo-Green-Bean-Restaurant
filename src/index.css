@@ -191,8 +191,8 @@ p {
   border:  rgba(46, 204, 113, 1) 2px solid !important;
   width: 50%;
   padding: 20px;
-  transform: translate(0%, 15%);
-  webkit-transform: translate(0%, 15%);
+  transform: translate(0%, 10%);
+  webkit-transform: translate(0%, 10%);
 }
 
 @media (max-width: 748px) {
@@ -244,7 +244,13 @@ p {
   }
 }
 
-@media (max-width: 410px){
+@media (max-width: 409px){
+  .cont{
+    height: 1250px;
+  }
+}
+
+@media (max-width: 405px){
   .cont{
     height: 1350px;
   }
@@ -369,4 +375,34 @@ hr {
   text-align: center; 
   width: 100%;
   padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .carousel-caption h1{
+    font-size: 15px;
+  }
+
+  .carousel-caption h3{
+    font-size: 12px;
+  }
+
+  /* .carousel-caption button{
+    height: 15px;
+    width: 30px;
+    font-size: 8px;
+  } */
+}
+
+@media (max-width: 700px) {
+  .menu2 img{
+    float: left;
+  }
+  
+  .menu2 h5{
+    float: right;
+  }
+
+  .menu h4{
+    float: none;
+  } 
 }

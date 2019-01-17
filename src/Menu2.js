@@ -4,7 +4,8 @@ import food_icon from './food_icon.jpg';
 
 var Style = {
     backgroundImage: "url(" +  menu  + ")",
-    marginTop: 50
+    marginTop: 50,
+    backgroundAttachment: "fixed"
   };
 
 export class Menu2 extends React.Component {
@@ -18,52 +19,54 @@ export class Menu2 extends React.Component {
                         </div>
                         <div className="col-lg-5">
                             <h3>Our Best Food Recipes</h3>
-                            <h3 style={{marginBottom: 60}}>Best offers from the house chef</h3>
-                            <div style={{marginBottom: 30}}>
+                            <br />
+                            <h3 style={{marginBottom: 60}}>Best offer from house chef</h3>
+                            <div className="menu2" style={{marginBottom: 30}}>
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp;   Menu Title Here</h4>
                                 <hr />
-                                <h5>&nbsp;&nbsp;  We create, make and serve fresho</h5>
+                                <h4>&nbsp;&nbsp;  We create, make and serve fresho</h4>
                             </div>
-                            <div style={{marginBottom: 30}}>
+                            <div className="menu2" style={{marginBottom: 30}}>
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp;  Menu Title Here</h4>
                                 <hr />
-                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
+                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
                             </div>
-                            <div>
+                            <div  className="menu2">
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
+                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
                             </div>
                         </div>
                         <div className="col-lg-5">
                             <h3>Our Best Food Recipes</h3>
-                            <h3 style={{marginBottom: 60}}>Best offers from the house chef</h3>
-                            <div style={{marginBottom: 30}}>
+                            <br />
+                            <h3 style={{marginBottom: 60}}>Best offer from house chef</h3>
+                            <div className="menu2" style={{marginBottom: 30}}>
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
+                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
                             </div>
-                            <div style={{marginBottom: 30}}>
+                            <div className="menu2" style={{marginBottom: 30}}>
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
+                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
                             </div>
-                            <div>
+                            <div className="menu2">
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
+                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
                             </div>
                         </div>
                         <div className="col-lg-1">
