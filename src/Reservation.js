@@ -10,8 +10,6 @@ export class Reservation extends React.Component {
     render() {
         return(
             <div className="container-fluid content" id="reservation" style={ sectionStyle }>
-                {/* <img src={para1} alt="Kitchen1" style={{width:'100%'}} /> */}
-
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body text-center">

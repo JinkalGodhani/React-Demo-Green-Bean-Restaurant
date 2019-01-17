@@ -304,6 +304,7 @@ p {
 .card-deck .card {
   background-color: transparent !important;
   border: white 2px solid !important;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 0) {
