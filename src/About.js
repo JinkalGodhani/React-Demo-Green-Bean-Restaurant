@@ -17,7 +17,7 @@ export class About extends React.Component {
                         <button className="btn" style={{width: 100, height: 35, fontSize: 13}}>Read More</button>
                     </div>
                     <div className="col-lg-6">
-                        <img src={chef} alt="Chef" style={{height: 250}} />
+                        <img className="chef" src={chef} alt="Chef" />
                     </div>
                 </div>
             </div>

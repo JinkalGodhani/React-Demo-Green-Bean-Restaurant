@@ -25,9 +25,13 @@ export class Blog extends React.Component {
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="card-footer">
-                                <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
-                                <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
-                                <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
+                                <a href="#" style={{color: 'black'}}>
+                                    <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
+                                    <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
+                                </a>
+                                <a href="#" style={{color: 'black'}}>
+                                    <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -46,8 +50,13 @@ export class Blog extends React.Component {
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="card-footer">
-                            <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5><span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
+                            <a href="#" style={{color: 'black'}}>
+                                <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
+                                <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
+                            </a>
+                            <a href="#" style={{color: 'black'}}>
                                 <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -66,8 +75,13 @@ export class Blog extends React.Component {
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="card-footer">
-                            <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5><span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
+                            <a href="#" style={{color: 'black'}}>
+                                <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
+                                <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
+                            </a>
+                            <a href="#" style={{color:'black'}}>
                                 <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
+                            </a>
                             </div>
                         </div>
                     </div>

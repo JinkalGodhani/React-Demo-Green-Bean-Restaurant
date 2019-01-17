@@ -13,14 +13,39 @@ export class Menu extends React.Component {
             dots: true,
             // centerMode: true,
             infinite: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 2000,
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: true
+            autoplay: true,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+            ]
           };
 
         return(
-            <div className="container container1" style={{marginTop: 240}}>
+            <div className="container container1" style={{marginTop: 40}}>
                 <h2 style={{color: '#2ecc71', textAlign: 'center'}}>Our Special Dishes</h2>
                 <h2 style={{textAlign: 'center', marginBottom:30}}>Lets Discover Our Food</h2>
                 

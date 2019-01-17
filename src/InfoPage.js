@@ -6,7 +6,7 @@ export class InfoPage extends React.Component{
             <div className="info-page" style={{backgroundColor: '#2ECC71'}}>
                 <div className="container">
 
-                    <h6 style={{float: 'left'}}>
+                    <h6 className="ul_1">
                         <ul className="icon-types">
                             <li>
                                 <a href="#">
@@ -17,7 +17,7 @@ export class InfoPage extends React.Component{
                         </ul>
                     </h6>
                 
-                    <h6 style={{float: 'right'}}>
+                    <h6 className="ul_2">
                         <ul className="icon-types">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>

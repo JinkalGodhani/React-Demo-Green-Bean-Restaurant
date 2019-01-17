@@ -2,11 +2,15 @@ import React from 'react';
 import menu from './menu.jpg';
 import food_icon from './food_icon.jpg';
 
+var Style = {
+    backgroundImage: "url(" +  menu  + ")",
+    marginTop: 50
+  };
+
 export class Menu2 extends React.Component {
     render() {
         return (
-            <div className="container-fluid cont" style={{marginTop: 50}}> 
-                <img src={menu} style={{width: '100%'}} />
+            <div className="container-fluid cont" style={ Style }> 
                 <div className="container cont1">
                 
                     <div className="row">
