@@ -27,7 +27,7 @@ export class TextCarousel extends React.Component {
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                         <br />
-                        <h4 style={{color: '#2ecc71'}}>Brain Smith</h4>
+                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Brain Smith</h4>
                         </p>
                     </div>
                     <div className="text_container">
@@ -35,7 +35,7 @@ export class TextCarousel extends React.Component {
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                         <br />
-                        <h4 style={{color: '#2ecc71'}}>Brain Smith</h4>
+                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Brain Smith</h4>
                         </p>
                     </div>
                     <div className="text_container">
@@ -43,7 +43,7 @@ export class TextCarousel extends React.Component {
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                         <br />
-                        <h4 style={{color: '#2ecc71'}}>Brain Smith</h4>
+                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Brain Smith</h4>
                         </p>
                     </div>
                 </Slider>

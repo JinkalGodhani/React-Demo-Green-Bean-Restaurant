@@ -45,7 +45,7 @@ export class Chef extends React.Component {
 
         return(
             <div className="container" id="chef">
-                <h2 style={{color: '#2ecc71', textAlign: 'center', marginTop: 40}}>Our Delicious</h2>
+                <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 40}}>Our Delicious</h2>
                 <h2 style={{textAlign: 'center', marginBottom: 30}}>Meet Our Expert Chefs</h2>
                 <Slider {...settings}>
                     <div>

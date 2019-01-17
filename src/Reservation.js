@@ -10,6 +10,8 @@ export class Reservation extends React.Component {
     render() {
         return(
             <div className="container-fluid content" id="reservation" style={ sectionStyle }>
+                <h2 className="font_fam" style={{marginTop: 20, textAlign: 'center', color: 'white'}}>Opening Hours</h2>
+                <h2 style={{textAlign: 'center', marginBottom:-25, color: 'white'}}>Call For Reservation</h2>
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body text-center">

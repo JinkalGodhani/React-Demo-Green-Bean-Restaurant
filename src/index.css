@@ -95,8 +95,10 @@ code {
   margin-top: 10px;
 }
 
-.navbar-brand{
-  font-family: 'Dancing Script', cursive;
+.font_fam{
+  font-family: 'Playball', cursive;
+  font-size: 30px !important;
+  font-style: bold;
 }
 
 .navbar .navbar-expand-lg{
@@ -118,14 +120,14 @@ code {
 }
 
 
-/* .btn_1 {
+.btn_1 {
   left: 0;
   text-align:center;
   font-family: "Times New Roman", Times, serif;
   font-variant: small-caps;
   margin-left: 30px;
 
-} */
+}
 
 .text button {
   position: absolute;
@@ -272,7 +274,7 @@ p {
 
 .btn1 {
   border-color: white;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .content {

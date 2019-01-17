@@ -7,7 +7,7 @@ export class About extends React.Component {
             <div className="container" id="about" style={{marginTop: 30}}>
                 <div className="row">
                     <div className="col-lg-6">
-                        <h1 style={{color: '#2ECC71'}}>Green Bean</h1>
+                        <h1 className="font_fam" style={{color: '#2ECC71'}}>Green Bean</h1>
                         <h1>Discover Our Restaurant</h1>
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
