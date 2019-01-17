@@ -3,7 +3,7 @@ import React from 'react';
 export class Footer extends React.Component {
     render() {
         return(
-            <div className="container-fluid" style={{backgroundColor: 'black', marginTop: 30}}>
+            <div className="container-fluid" id="footer" style={{backgroundColor: 'black', marginTop: 30}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 txt_col">

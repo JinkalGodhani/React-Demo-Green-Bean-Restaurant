@@ -26,21 +26,21 @@ export class Menu2 extends React.Component {
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp;   Menu Title Here</h4>
                                 <hr />
-                                <h4>&nbsp;&nbsp;  We create, make and serve fresho</h4>
+                                <h5>&nbsp;&nbsp;  We create, make and serve fresho</h5>
                             </div>
                             <div className="menu2" style={{marginBottom: 30}}>
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp;  Menu Title Here</h4>
                                 <hr />
-                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
+                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
                             </div>
                             <div  className="menu2">
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
+                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
                             </div>
                         </div>
                         <div className="col-lg-5">
@@ -52,21 +52,21 @@ export class Menu2 extends React.Component {
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
+                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
                             </div>
                             <div className="menu2" style={{marginBottom: 30}}>
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
+                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
                             </div>
                             <div className="menu2">
                                 <img src={food_icon} style={{height: 40, width: 40, float: 'left'}} />
                                 <h5 style={{float: 'right', color: '#2ecc71'}}>$20</h5>
                                 <h4>&nbsp;&nbsp; Menu Title Here</h4>
                                 <hr />
-                                <h4>&nbsp;&nbsp; We create, make and serve fresho</h4>
+                                <h5>&nbsp;&nbsp; We create, make and serve fresho</h5>
                             </div>
                         </div>
                         <div className="col-lg-1">

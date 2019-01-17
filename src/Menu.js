@@ -44,7 +44,7 @@ export class Menu extends React.Component {
           };
 
         return(
-            <div className="container container1" style={{marginTop: 40}}>
+            <div className="container container1" id="menu" style={{marginTop: 40}}>
                 <h2 style={{color: '#2ecc71', textAlign: 'center'}}>Our Special Dishes</h2>
                 <h2 style={{textAlign: 'center', marginBottom:30}}>Lets Discover Our Food</h2>
                 

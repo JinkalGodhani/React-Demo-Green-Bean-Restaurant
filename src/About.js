@@ -4,7 +4,7 @@ import chef from './chef.jpeg';
 export class About extends React.Component {
     render() {
         return(
-            <div className="container" style={{marginTop: 30}}>
+            <div className="container" id="about" style={{marginTop: 30}}>
                 <div className="row">
                     <div className="col-lg-6">
                         <h1 style={{color: '#2ECC71'}}>Green Bean</h1>

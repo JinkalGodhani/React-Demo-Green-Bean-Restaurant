@@ -6,7 +6,7 @@ import blog3 from './blog3.jpeg';
 export class Blog extends React.Component {
     render() {
         return(
-            <div className="container">
+            <div className="container" id="blog">
                 <h2 style={{color: '#2ecc71', textAlign: 'center', marginTop: 50}}>Our Blogs</h2>
                 <h2 style={{textAlign: 'center', marginBottom: 30}}>Latest News Update</h2>
 

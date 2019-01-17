@@ -1,5 +1,5 @@
 import React from 'react';
-import para1 from './parallax.jpeg';
+import para1 from './parallax1.jpeg';
 
 var sectionStyle = {
     backgroundImage: "url(" +  para1  + ")",
@@ -9,7 +9,7 @@ var sectionStyle = {
 export class Reservation extends React.Component {
     render() {
         return(
-            <div className="container-fluid content" style={ sectionStyle }>
+            <div className="container-fluid content" id="reservation" style={ sectionStyle }>
                 {/* <img src={para1} alt="Kitchen1" style={{width:'100%'}} /> */}
 
                 <div class="card-deck">
