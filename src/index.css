@@ -69,6 +69,10 @@ code {
   font-size: 18px;
 }
 
+.navbar-nav li a:hover {
+  color: #2ECC71;
+}
+
 .navbar .navbar-brand {
   font-size: 18px;
 }
