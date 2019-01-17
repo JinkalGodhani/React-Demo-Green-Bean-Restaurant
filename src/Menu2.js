@@ -72,8 +72,7 @@ export class Menu2 extends React.Component {
                         <div className="col-lg-1">
                         </div>
                     </div>                        
-                </div>
-                
+                </div>  
             </div>
         );
     }
