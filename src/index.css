@@ -307,6 +307,9 @@ p {
   background-color: transparent !important;
   border: white 2px solid !important;
   background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
 }
 
 @media (max-width: 748px)

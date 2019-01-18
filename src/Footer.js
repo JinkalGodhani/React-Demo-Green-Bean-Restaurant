@@ -13,7 +13,7 @@ export class Footer extends React.Component {
                                     <h4>Address</h4>
                                 </div>
                                 <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right'}}>209 Milion Building,Canada</h4>
+                                    <h4 style={{textAlign: 'right'}}>Milion Building</h4>
                                 </div>
                             </div>
                             <hr />
@@ -22,7 +22,7 @@ export class Footer extends React.Component {
                                 <h4>Phone</h4>
                                 </div>
                                 <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right'}}>01778235039</h4>
+                                    <h4 style={{textAlign: 'right', color:'white'}}>01778235039</h4>
                                 </div>
                             </div>
                             <hr />
