@@ -6,12 +6,16 @@ export class NavigationBar extends React.Component {
             
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
-                    <a className="navbar-brand font_fam" href="#" style={{color: '#2ecc71', marginTop: 0}}>Green Bean</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                    
+                    <div className="navbar-header">
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                            <i class="fa fa-bars" style={{marginTop: 15}}></i>
+                        </button>
+                        <a className="navbar-brand font_fam" href="#" style={{color: '#2ecc71', marginTop: 0, float:'left'}}>Green Bean</a>
+                    </div>
+
                     <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav" style={{margin: '0 auto'}}>
                         <li className="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
