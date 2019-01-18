@@ -8,7 +8,7 @@ export class NavigationBar extends React.Component {
                 <nav className="navbar navbar-expand-lg">
                     <a className="navbar-brand font_fam" href="#" style={{color: '#2ecc71', marginTop: 0}}>Green Bean</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
-                        <span className="navbar-toggler-icon" style={{color:'black'}}></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav">
