@@ -29,7 +29,7 @@ export class Blog extends React.Component {
                                     <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
                                     <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
                                 </a>
-                                <a href="#" style={{color: 'black'}}>
+                                <a className="disappear_content" href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
                                     <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
                                 </a>
@@ -55,7 +55,7 @@ export class Blog extends React.Component {
                                 <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
                                 <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
                             </a>
-                            <a href="#" style={{color: 'black'}}>
+                            <a className="disappear_content" href="#" style={{color: 'black'}}>
                                 <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
                                 <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
                             </a>
@@ -81,7 +81,7 @@ export class Blog extends React.Component {
                                 <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
                                 <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
                             </a>
-                            <a href="#" style={{color:'black'}}>
+                            <a className="disappear_content" href="#" style={{color:'black'}}>
                                 <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
                                 <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
                             </a>

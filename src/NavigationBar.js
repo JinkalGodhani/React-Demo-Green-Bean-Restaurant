@@ -7,7 +7,7 @@ export class NavigationBar extends React.Component {
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
                     
-                    <div className="navbar-header">
+                    <div className="navbar-header text-center">
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
                             <i class="fa fa-bars" style={{marginTop: 5}}></i>
                         </button>
@@ -15,7 +15,7 @@ export class NavigationBar extends React.Component {
                     </div>
 
                     <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul className="navbar-nav" style={{margin: '0 auto'}}>
+                    <ul className="navbar-nav text-center" style={{margin: '0 auto'}}>
                         <li className="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
