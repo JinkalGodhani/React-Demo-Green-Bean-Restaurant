@@ -9,7 +9,7 @@ export class NavigationBar extends React.Component {
                     
                     <div className="navbar-header">
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
-                            <i class="fa fa-bars" style={{marginTop: 15}}></i>
+                            <i class="fa fa-bars" style={{marginTop: 5}}></i>
                         </button>
                         <a className="navbar-brand font_fam" href="#" style={{color: '#2ecc71', marginTop: 0, float:'left'}}>Green Bean</a>
                     </div>
