@@ -308,16 +308,18 @@ p {
   border: white 2px solid !important;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
-  flex: 1 0;
+  flex: 1 0 !important;
   flex-direction: column;
 }
 
-@media (max-width: 748px)
-.content .card-deck {
+@media (max-width: 748px){
+  .content .card-deck {
     -webkit-transform: translate(0);
     transform: translate(2%,17%);
     webkit-transform: translate(0);
 }
+}
+
 
 /* @media (min-width: 0) {
   .card-deck .card {
