@@ -307,7 +307,13 @@ p {
   background-color: transparent !important;
   border: white 2px solid !important;
   background: rgba(0, 0, 0, 0.5);
-  filter: alpha(opacity=60);
+}
+
+@media (max-width: 748px)
+.content .card-deck {
+    -webkit-transform: translate(0);
+    transform: translate(2%,17%);
+    webkit-transform: translate(0);
 }
 
 @media (min-width: 0) {
