@@ -45,14 +45,6 @@ export class Reservation extends React.Component {
                             <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
                         </div>
                     </div>
-                    <div class="card" style={{backgroundColor: 'transparent'}}>
-                        <div class="card-body text-center">
-                            <p class="card-text">Mon-Fri</p>
-                            <p class="card-text">Breakfast</p>
-                            <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
-                        </div>
-                    </div>
                 </div>
             </div>
         );
