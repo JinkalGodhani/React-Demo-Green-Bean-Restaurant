@@ -9,11 +9,11 @@ export class ImageCarousel1 extends React.Component {
     render() {
         const settings = {
             dots: true,
-            // infinite: true,
-            // autoplaySpeed: 2000,
+            infinite: true,
+            autoplaySpeed: 2000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            // autoplay: true,
+            autoplay: true,
             responsive: [
                 {
                   breakpoint: 1024,

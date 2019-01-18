@@ -21,7 +21,7 @@ code {
   float: right;
 }
 
-@media (max-width:990px) {
+@media (max-width:991px) {
   .ul_1 {
     float: none;
   }
@@ -101,6 +101,23 @@ code {
 .navbar-brand {
   padding: 0px !important;
   float: left !important;
+}
+
+@media (max-width:1140px) {
+  .navbar-nav li a{
+    font-size: 12px;
+  }
+  .navbar .navbar-header .font_fam{
+    font-size: 18px !important;
+  }
+  .navbar .navbar-header {
+    margin-top: 20px;
+  }
+  .navbar-nav li button{
+    font-size: 12px;
+  }
+
+
 }
 
 .btn {
@@ -238,7 +255,7 @@ p {
   }
 }
 
-@media (max-width: 1155px){
+@media (max-width: 1158px){
   .cont{
     height: 550px;
   }
@@ -308,15 +325,28 @@ p {
 
 @media (max-width: 748px) {
   .content .card-deck {
-    transform: translate(0%, 0%);
-    webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 17%);
+    webkit-transform: translate(0%, 17%);
   }
 
   .content{ 
     width: 100%;
-    height: 750px;
+    height: 400px;
   }
 }
+
+@media (max-width: 575px) {
+  .content .card-deck {
+    transform: translate(0%, 10%);
+    webkit-transform: translate(0%, 17%);
+  }
+
+  .content{ 
+    width: 100%;
+    height: 850px;
+  }
+}
+
 .card-deck .card {
   display: flex;
   flex: 1 0 !important;
@@ -362,6 +392,13 @@ p {
 .chef_spec {
   height: 250px;
   width: 100px;
+}
+
+@media (max-width:600px){
+  .chef_spec {
+    height: 175px;
+    width: 75px;
+  }
 }
 
 .center {
