@@ -304,12 +304,15 @@ p {
   }
 }
 .card-deck .card {
-  background-color: transparent !important;
-  border: white 2px solid !important;
-  background: rgba(0, 0, 0, 0.5);
   display: flex;
   flex: 1 0 !important;
   flex-direction: column;
+}
+
+.card-deck .card1 {
+  background-color: transparent !important;
+  border: white 2px solid !important;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 748px){
@@ -431,9 +434,8 @@ hr {
 }
 
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-  .card-deck .card .card-img-top{
-    height: 346px;
-    width: 346px;
+
+.ie .card-deck .card .card-img-top{
+  height: 346px;
+  width: 346px;
   }  
-}
