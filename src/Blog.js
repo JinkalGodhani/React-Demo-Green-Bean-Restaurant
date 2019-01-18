@@ -30,6 +30,7 @@ export class Blog extends React.Component {
                                     <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
                                 </a>
                                 <a href="#" style={{color: 'black'}}>
+                                    <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
                                     <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
                                 </a>
                             </div>
@@ -55,6 +56,7 @@ export class Blog extends React.Component {
                                 <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
                             </a>
                             <a href="#" style={{color: 'black'}}>
+                                <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
                                 <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
                             </a>
                             </div>
@@ -80,6 +82,7 @@ export class Blog extends React.Component {
                                 <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
                             </a>
                             <a href="#" style={{color:'black'}}>
+                                <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
                                 <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
                             </a>
                             </div>
