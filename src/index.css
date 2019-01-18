@@ -319,7 +319,7 @@ p {
     webkit-transform: translate(0);
 }
 
-@media (min-width: 0) {
+/* @media (min-width: 0) {
   .card-deck .card {
     flex: 0 0 calc(100% - 30px);
   }
@@ -343,7 +343,7 @@ p {
   .card-deck .card {
     flex: 0 0 calc(20% - 30px);
   }
-}
+} */
 
 .chef_spec {
   height: 250px;
