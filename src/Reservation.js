@@ -13,36 +13,36 @@ export class Reservation extends React.Component {
                 <h2 className="font_fam" style={{marginTop: 20, textAlign: 'center', color: 'white'}}>Opening Hours</h2>
                 <h2 style={{textAlign: 'center', marginBottom:-25, color: 'white'}}>Call For Reservation</h2>
                 <div class="card-deck">
-                    <div class="card">
+                    <div class="card" style={{backgroundColor: 'transparent'}}>
                         <div class="card-body text-center">
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text">Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style={{backgroundColor: 'transparent'}}>
                         <div class="card-body text-center">
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text">Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style={{backgroundColor: 'transparent'}}>
                         <div class="card-body text-center">
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text">Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style={{backgroundColor: 'transparent'}}>
                         <div class="card-body text-center">
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text">Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
                         </div>
                     </div>
                 </div>
