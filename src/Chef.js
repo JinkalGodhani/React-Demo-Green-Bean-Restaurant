@@ -50,18 +50,28 @@ export class Chef extends React.Component {
                 <Slider {...settings}>
                     <div>
                         <img className="center chef_spec rounded-circle" src={chef1} alt="Chef1" />
+                        <h5 className="text-center" style={{marginTop: 10}}>Elizabeth Jones</h5>
+                        <h6 className="text-center" style={{color: '#2ecc71'}}>Chief Cook</h6>
                     </div>
                     <div>
                         <img className="center chef_spec rounded-circle" src={chef2} alt="Chef2" />
+                        <h5 className="text-center" style={{marginTop: 10}}>Elizabeth Jones</h5>
+                        <h6 className="text-center" style={{color: '#2ecc71'}}>Chief Cook</h6>
                     </div>
                     <div>
                         <img className="center chef_spec rounded-circle" src={chef3} alt="Chef3" />
+                        <h5 className="text-center" style={{marginTop: 10}}>Elizabeth Jones</h5>
+                        <h6 className="text-center" style={{color: '#2ecc71'}}>Chief Cook</h6>
                     </div>
                     <div>
                         <img className="center chef_spec rounded-circle" src={chef4} alt="Chef4" />
+                        <h5 className="text-center" style={{marginTop: 10}}>Elizabeth Jones</h5>
+                        <h6 className="text-center" style={{color: '#2ecc71'}}>Chief Cook</h6>
                     </div>
                     <div>
                         <img className="center chef_spec rounded-circle" src={chef5} alt="Chef5" />
+                        <h5 className="text-center" style={{marginTop: 10}}>Elizabeth Jones</h5>
+                        <h6 className="text-center" style={{color: '#2ecc71'}}>Chief Cook</h6>
                     </div>
                 </Slider>
             </div>
