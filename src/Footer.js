@@ -3,7 +3,7 @@ import React from 'react';
 export class Footer extends React.Component {
     render() {
         return(
-            <div className="container-fluid" id="footer" style={{backgroundColor: 'black', marginTop: 30}}>
+            <div className="container-fluid" id="footer" style={{backgroundColor: 'black', marginTop: 30, paddingBottom: 30}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 txt_col">
@@ -34,6 +34,7 @@ export class Footer extends React.Component {
                                 <h4 style={{textAlign: 'right'}}>greenbean@info.com</h4>
                                 </div>
                             </div> 
+                            <hr />
                         </div>
                         <div className="col-lg-4 txt_col">
                             <h2>OPENING <span style={{color: '#2ECC71'}}>HOURS</span></h2>
@@ -63,6 +64,7 @@ export class Footer extends React.Component {
                                     <h4 style={{textAlign: 'right'}}>10am - 9pm</h4>
                                 </div>
                             </div>  
+                            <hr />
                         </div>
                         <div className="col-lg-4 txt_col">
                             <h2>FOLLOW <span style={{color: '#2ECC71'}}>US</span></h2>
@@ -71,7 +73,7 @@ export class Footer extends React.Component {
                             <ul className="icon-types">
                                 <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
                                 <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
                             </ul>
                         </div>

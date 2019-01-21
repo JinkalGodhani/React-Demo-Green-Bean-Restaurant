@@ -21,7 +21,7 @@ export class InfoPage extends React.Component{
                         <ul className="icon-types">
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                             <li>|</li>
                             <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>

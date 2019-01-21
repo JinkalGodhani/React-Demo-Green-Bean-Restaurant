@@ -11,6 +11,8 @@ export class Chef extends React.Component {
         const settings = {
             dots: true,
             infinite: true,
+            centerMode: true,
+            centerPadding: '60px',
             autoplaySpeed: 2000,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -47,7 +49,7 @@ export class Chef extends React.Component {
                 <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 40}}>Our Delicious</h2>
                 <h2 style={{textAlign: 'center', marginBottom: 30}}>Meet Our <span className="under_line" style={{marginRight:'-4px'}}>Exp</span>ert Chefs</h2>
                 <Slider {...settings}>
-                    <div>
+                    <div className="focus_img">
                         <img className="center chef_spec rounded-circle" src={chef1} alt="Chef1" />
                         <h5 className="text-center" style={{marginTop: 10}}>Elizabeth Jones</h5>
                         <h6 className="text-center" style={{color: '#2ecc71'}}>Chief Cook</h6>

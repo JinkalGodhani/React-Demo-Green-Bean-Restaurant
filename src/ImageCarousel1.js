@@ -13,7 +13,7 @@ export class ImageCarousel1 extends React.Component {
             autoplaySpeed: 2000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
+            // autoplay: true,
             responsive: [
                 {
                   breakpoint: 1024,
@@ -41,7 +41,7 @@ export class ImageCarousel1 extends React.Component {
             ]
           };
         return(
-            <div className="container-fluid">
+            <div className="container-fluid" style={{marginTop: 64}}>
                 <Slider {...settings}>
                     <div className="container caro_container">
                         <img src={slide1} style={{width:'100%'}} />

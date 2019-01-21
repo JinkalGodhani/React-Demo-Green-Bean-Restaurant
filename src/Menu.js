@@ -46,21 +46,21 @@ export class Menu extends React.Component {
         return(
             <div className="container container1" id="menu" style={{marginTop: 40}}>
                 <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center'}}>Our Special Dishes</h2>
-                <h2 style={{textAlign: 'center', marginBottom:30, marginRight: 0}}>Lets Disc<span className="under_line">over</span> Our Food</h2>
+                <h2 style={{textAlign: 'center', marginBottom:30}}>Let's Disco<span className="under_line" style={{marginLeft: '-1px'}}>ver</span> Our Food</h2>
                 
                 <Slider {...settings}>
 
                 <div className="card card1">
                     <img className="card-img-top" src={slick1} />
                     <div className="card-body">
-                        <h4 className="card-title">
+                        <h4 className="card-title" style={{float: 'left'}}>
                             Menu
                         </h4>
                         <h4 className="card-title" style={{float:'right'}}>
                             $20
                         </h4>
                         <br />
-                        <p className="card-text">
+                        <p className="card-text" style={{marginTop: 10}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
                     </div>
@@ -69,14 +69,14 @@ export class Menu extends React.Component {
                 <div className="card card1">
                     <img className="card-img-top" src={slick2} />
                     <div className="card-body">
-                        <h4 className="card-title">
+                        <h4 className="card-title" style={{float: 'left'}}>
                             Menu
                         </h4>
                         <h4 className="card-title" style={{float:'right'}}>
                             $20
                         </h4>
                         <br />
-                        <p className="card-text">
+                        <p className="card-text" style={{marginTop: 10}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
                     </div>
@@ -85,14 +85,14 @@ export class Menu extends React.Component {
                 <div className="card card1">
                     <img className="card-img-top" src={slick3} />
                     <div className="card-body">
-                        <h4 className="card-title">
+                        <h4 className="card-title" style={{float:'left'}}>
                             Menu
                         </h4>
                         <h4 className="card-title" style={{float:'right'}}>
                             $20
                         </h4>
                         <br />
-                        <p className="card-text">
+                        <p className="card-text" style={{marginTop: 10}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
                     </div>
@@ -101,14 +101,14 @@ export class Menu extends React.Component {
                 <div className="card card1">
                     <img className="card-img-top" src={slick4} />
                     <div className="card-body">
-                        <h4 className="card-title">
+                        <h4 className="card-title" style={{float: 'left'}}>
                             Menu
                         </h4>
                         <h4 className="card-title" style={{float:'right'}}>
                             $20
                         </h4>
                         <br />
-                        <p className="card-text">
+                        <p className="card-text" style={{marginTop: 10}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         </p>
                     </div>

@@ -20,7 +20,7 @@ export class TextCarousel extends React.Component {
         return(
             <div className="container-fluid text_carousel" style={ Style }>
                 <div className="container text-center">
-                {/* <h1 className="inverted_comma">“</h1> */}
+                <h1 className="inverted_comma">“</h1>
                 <Slider {...settings}>
 
                     <div className="text_container">

@@ -55,6 +55,10 @@ code {
   font-size: 18px;
 }
 
+.carousel-caption .btn {
+  font-size: 17px;
+}
+
 .icon-types li {
   display: inline;
   padding-right: 20px;
@@ -162,8 +166,9 @@ code {
   text-align:center;
   font-family: "Times New Roman", Times, serif;
   font-variant: small-caps;
-  margin-left: 30px;
-
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
 }
 
 .text button {
@@ -175,14 +180,12 @@ code {
   height: 400px;
 }
 
-.caro_container .text_content {
+.caro_container .carousel-caption {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* bottom: 0; */
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); 
+
   color: #f1f1f1;
   width: 100%;
   height: 100%;
@@ -411,9 +414,8 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
-
 
 .card-footer {
   background-color: transparent !important;
@@ -520,7 +522,7 @@ hr {
     color: black !important;
   }
 }
-/* 
+
 .sticky1 {
   position: -webkit-fixed !important;
   position: fixed !important;
@@ -530,7 +532,7 @@ hr {
   width: 100%;
   background-color: white;
   justify-content: center; 
-} */
+}
 
 
 .under_line {
@@ -553,5 +555,47 @@ hr {
 
 .inverted_comma {
   color: white;
-  font-size: 20px !important;
+  font-size: 90px !important;
 }
+
+.card1 {
+  padding: 10px;
+  border: 0px !important;
+}
+
+.card {
+  border: 0px !important;
+}
+
+.card-footer {
+  border-top: 1px dotted !important;
+}
+
+@media (max-width: 1533px) {
+  .cont{
+    height: 650px;
+  }
+  .h5_create{ 
+    margin-top: 13px;
+  }
+  
+  .hr_margin {
+    margin-top: 40px !important;
+    margin-left: 0px !important;
+  }
+  
+  .h5_menu {
+  
+  }
+
+}
+
+
+@media (max-width: 1330px) {
+  .img_align {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+}
+
