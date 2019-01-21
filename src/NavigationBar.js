@@ -5,7 +5,7 @@ export class NavigationBar extends React.Component {
         return(
             
             <div className="container">
-                <nav className="navbar navbar-expand-lg">
+                <nav className="navbar navbar-expand-lg sticky1">
                     
                     <div className="navbar-header text-center">
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
@@ -17,7 +17,7 @@ export class NavigationBar extends React.Component {
                     <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav text-center" style={{margin: '0 auto'}}>
                         <li className="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#home" aria-expanded="false">Home</a>
                         </li>
                         <li className="nav-item">
                             <a class="nav-link" href="#about">About</a>

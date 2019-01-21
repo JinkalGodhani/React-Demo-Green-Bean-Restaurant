@@ -46,7 +46,7 @@ export class Menu extends React.Component {
         return(
             <div className="container container1" id="menu" style={{marginTop: 40}}>
                 <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center'}}>Our Special Dishes</h2>
-                <h2 style={{textAlign: 'center', marginBottom:30}}>Lets Discover Our Food</h2>
+                <h2 style={{textAlign: 'center', marginBottom:30, marginRight: 0}}>Lets Disc<span className="under_line">over</span> Our Food</h2>
                 
                 <Slider {...settings}>
 

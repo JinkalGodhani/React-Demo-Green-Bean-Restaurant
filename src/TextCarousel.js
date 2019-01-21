@@ -19,7 +19,8 @@ export class TextCarousel extends React.Component {
           };
         return(
             <div className="container-fluid text_carousel" style={ Style }>
-                <div className="container">
+                <div className="container text-center">
+                {/* <h1 className="inverted_comma">“</h1> */}
                 <Slider {...settings}>
 
                     <div className="text_container">
@@ -27,7 +28,7 @@ export class TextCarousel extends React.Component {
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                         <br />
-                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Brain Smith</h4>
+                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h4>
                         </p>
                     </div>
                     <div className="text_container">
@@ -35,7 +36,7 @@ export class TextCarousel extends React.Component {
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                         <br />
-                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Brain Smith</h4>
+                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h4>
                         </p>
                     </div>
                     <div className="text_container">
@@ -43,7 +44,7 @@ export class TextCarousel extends React.Component {
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
                         <br />
-                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Brain Smith</h4>
+                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h4>
                         </p>
                     </div>
                 </Slider>

@@ -34,6 +34,12 @@ code {
   }
 }
 
+@media (max-width:1111px) {
+  .chef{
+    width: 400px !important;
+  }
+}
+
 .info-page {
   margin-left: 20px;
   margin-right: 20px;
@@ -82,7 +88,7 @@ code {
   color: #2ECC71;
 }
 
-.navbar-nav li a:active {
+.navbar-nav li a:after {
   color: #2ECC71;
 }
 
@@ -513,4 +519,39 @@ hr {
   .disappear_content{
     color: black !important;
   }
+}
+/* 
+.sticky1 {
+  position: -webkit-fixed !important;
+  position: fixed !important;
+  top: 90px;
+  padding: 50px;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  justify-content: center; 
+} */
+
+
+.under_line {
+  border-bottom: #2ECC71;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-width: 2px;
+  border-style: solid;
+}
+
+.under_line_white {
+  border-bottom: white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-width: 2px;
+  border-style: solid;
+}
+
+.inverted_comma {
+  color: white;
+  font-size: 20px !important;
 }

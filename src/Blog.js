@@ -8,7 +8,7 @@ export class Blog extends React.Component {
         return(
             <div className="container" id="blog">
                 <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 50}}>Our Blogs</h2>
-                <h2 style={{textAlign: 'center', marginBottom: 30}}>Latest News Update</h2>
+                <h2 style={{textAlign: 'center', marginBottom: 30}}>Latest N<span className="under_line" style={{marginRight: '-4px', marginLeft: '-2px'}}>ew</span>s Update</h2>
 
                 <div className="card-deck">
                     <div className="card">
