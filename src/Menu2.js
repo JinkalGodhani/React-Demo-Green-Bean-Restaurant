@@ -11,7 +11,7 @@ var Style = {
 export class Menu2 extends React.Component {
     render() {
         return (
-            <div className="container-fluid cont" style={ Style }> 
+            <div className="container-fluid cont" style={ Style } id="menu"> 
                 <div className="container cont1">
                 
                     <div className="row">
