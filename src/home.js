@@ -15,7 +15,7 @@ import { Copyright } from './Copyright';
 export class Home extends React.Component{
     render() {
         return(
-            <div className="container-fluid" id ="home" style={{paddingTop: 40}}>
+            <div className="container-fluid" id ="home" style={{paddingTop: 40}} data-spy="scroll" data-target=".navbar" data-offset="50">
                
                 <InfoPage />
                 <NavigationBar />
