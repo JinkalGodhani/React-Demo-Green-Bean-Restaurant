@@ -10,28 +10,31 @@ export class Footer extends React.Component {
                             <h2>GREEN <span style={{color: '#2ECC71'}}>BEAN</span></h2>
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <h4>Address</h4>
+                                    <h4 style={{display: 'inline'}}>Address</h4>
+                                    <h4 className="appear" style={{textAlign: 'right'}}>Milion Building</h4>
                                 </div>
                                 <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right'}}>Milion Building</h4>
-                                </div>
-                            </div>
-                            <hr />
-                            <div className="row">
-                                <div className="col-lg-6">
-                                <h4>Phone</h4>
-                                </div>
-                                <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right', color:'white'}}>01778235039</h4>
+                                    <h4 className="disappear" style={{textAlign: 'right'}}>Milion Building</h4>
                                 </div>
                             </div>
                             <hr />
                             <div className="row">
                                 <div className="col-lg-6">
-                                <h4>Email</h4>
+                                <h4 style={{display: 'inline'}}>Phone</h4>
+                                <h4 className="appear" style={{textAlign: 'right', color:'white'}}>01778235039</h4>
                                 </div>
                                 <div className="col-lg-6">
-                                <h4 style={{textAlign: 'right'}}>greenbean@info.com</h4>
+                                    <h4 className="disappear" style={{textAlign: 'right', color:'white'}}>01778235039</h4>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="row">
+                                <div className="col-lg-6">
+                                <h4 style={{display: 'inline'}}>Email</h4>
+                                <h4 className="appear" style={{textAlign: 'right'}}>greenbean@info.com</h4>
+                                </div>
+                                <div className="col-lg-6">
+                                <h4 className="disappear" style={{textAlign: 'right'}}>greenbean@info.com</h4>
                                 </div>
                             </div> 
                             <hr />
@@ -40,28 +43,31 @@ export class Footer extends React.Component {
                             <h2>OPENING <span style={{color: '#2ECC71'}}>HOURS</span></h2>
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <h4>Mon-Fri</h4>
+                                    <h4 style={{display: 'inline'}}>Mon-Fri</h4>
+                                    <h4 className="appear" style={{textAlign: 'right'}}>9am - 11pm</h4>
                                 </div>
                                 <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right'}}>9am - 11pm</h4>
-                                </div>
-                            </div>
-                            <hr />
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <h4>Saturday</h4>
-                                </div>
-                                <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right'}}>8am - 8pm</h4>
+                                    <h4 className="disappear" style={{textAlign: 'right'}}>9am - 11pm</h4>
                                 </div>
                             </div>
                             <hr />
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <h4>Sunday</h4>
+                                    <h4 style={{display: 'inline'}}>Saturday</h4>
+                                    <h4 className="appear" style={{textAlign: 'right'}}>8am - 8pm</h4>
                                 </div>
                                 <div className="col-lg-6">
-                                    <h4 style={{textAlign: 'right'}}>10am - 9pm</h4>
+                                    <h4 className="disappear" style={{textAlign: 'right'}}>8am - 8pm</h4>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <h4 style={{display: 'inline'}}>Sunday</h4>
+                                    <h4 className="appear" style={{textAlign: 'right'}}>10am - 9pm</h4>
+                                </div>
+                                <div className="col-lg-6">
+                                    <h4 className="disappear" style={{textAlign: 'right'}}>10am - 9pm</h4>
                                 </div>
                             </div>  
                             <hr />

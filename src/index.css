@@ -409,8 +409,8 @@ hr {
 
 
 
-.ie .card-deck .card .card-img-top{
-  height: 346px;
+ .card-img-top{
+  height: 276px;
   width: 346px;
   }  
 
@@ -427,16 +427,16 @@ hr {
   }
 }
 
-.sticky1 {
+/* .sticky1 {
   position: -webkit-fixed !important;
   position: fixed !important;
   top: 90px;
-  padding: 50px;
+  padding: 0px;
   z-index: 1;
   width: 100%;
   background-color: white;
   justify-content: center; 
-}
+} */
 
 
 .under_line {
@@ -574,6 +574,10 @@ hr {
   .cont {
     height: 1510px;
   }
+
+  .h5_price {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 357px) {
@@ -590,6 +594,18 @@ hr {
   color: #2ECC71 !important;
 }
 
-.nav ul li a.is-active {
-  background: cadetblue;
+
+.appear {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .appear{
+    display: inline;
+    float: right;
+  }
+
+  .disappear {
+    display: none;
+  }
 }
