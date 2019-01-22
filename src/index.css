@@ -280,8 +280,8 @@ p {
 
 @media (max-width: 575px) {
   .content .card-deck {
-    transform: translate(0%, 10%);
-    webkit-transform: translate(0%, 17%);
+    transform: translate(0%, 8%);
+    webkit-transform: translate(0%, 8%);
   }
 
   .content{ 
@@ -427,7 +427,7 @@ hr {
   }
 }
 
-/* .sticky1 {
+.sticky1 {
   position: -webkit-fixed !important;
   position: fixed !important;
   top: 90px;
@@ -436,7 +436,7 @@ hr {
   width: 100%;
   background-color: white;
   justify-content: center; 
-} */
+}
 
 
 .under_line {
@@ -572,7 +572,7 @@ hr {
 
 @media (max-width: 391px) {
   .cont {
-    height: 1510px;
+    height: 1590px;
   }
 
   .h5_price {
