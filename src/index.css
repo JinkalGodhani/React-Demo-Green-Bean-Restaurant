@@ -21,6 +21,11 @@ code {
   float: right;
 }
 
+.chef {
+  height: 375px !important;
+  width: 350px !important;
+}
+
 @media (max-width:991px) {
   .ul_1 {
     float: none;
@@ -53,6 +58,10 @@ code {
 
 .info-page .icon-types li a {
   font-size: 18px;
+}
+
+.carousel-caption {
+  margin-top: 16%;
 }
 
 .carousel-caption .btn {
@@ -93,7 +102,7 @@ code {
 }
 
 .navbar-nav li a:after {
-  color: #2ECC71;
+  color: black;
 }
 
 .navbar .navbar-brand {
@@ -369,6 +378,12 @@ hr {
   .carousel-caption h3{
     font-size: 12px;
   }
+
+  .carousel-caption .btn {
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 490px) {
@@ -380,7 +395,7 @@ hr {
     font-size: 7px;
   }
 
-  .carousel-caption button{
+  .carousel-caption .btn{
     height: 20px;
     width: 50px;
     font-size: 7px;
@@ -388,7 +403,7 @@ hr {
 }
 
 @media (max-width: 410px) {
-  .carousel-caption button{
+  .carousel-caption .btn{
     display: none;
   }
 }
@@ -409,10 +424,10 @@ hr {
 
 
 
- .card-img-top{
+ /* .card-img-top{
   height: 276px;
   width: 346px;
-  }  
+  }   */
 
 
 @media (max-width:767px) {
@@ -427,15 +442,22 @@ hr {
   }
 }
 
-.sticky1 {
-  position: -webkit-fixed !important;
-  position: fixed !important;
+.sticky-nav-blur {
+  position: -webkit-sticky !important;
+  position: sticky !important;
   top: 90px;
   padding: 0px;
   z-index: 1;
   width: 100%;
   background-color: white;
   justify-content: center; 
+}
+
+.sticky-nav {
+  position: fixed !important;
+  z-index: 1;
+  top: 0 !important;
+  background-color: white !important;
 }
 
 
@@ -592,6 +614,7 @@ hr {
 
 .is-active {
   color: #2ECC71 !important;
+  /* border-bottom: #2ECC71 2px bold !important; */
 }
 
 
@@ -608,4 +631,9 @@ hr {
   .disappear {
     display: none;
   }
+}
+
+
+.font_sz p {
+  font-size: 17px;
 }

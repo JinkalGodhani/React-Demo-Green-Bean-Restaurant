@@ -21,11 +21,11 @@ export class Home extends React.Component{
                 <NavigationBar />
                 <ImageCarousel1 />
                 <About />
+                <Reservation />
                 <Menu />
                 <Menu2 />
-                <Blog />
                 <Chef />
-                <Reservation />
+                <Blog />
                 <TextCarousel />
                 <Footer />
                 <Copyright />
