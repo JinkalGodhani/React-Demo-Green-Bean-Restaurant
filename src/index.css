@@ -31,15 +31,15 @@ code {
   .chef{
     height: 0px !important;
   }
+
+  .navbar-nav li btn {
+    margin-top: 5px !important;
+  }
 }
 
 @media (max-width:1111px) {
   .chef{
     width: 400px !important;
-  }
-
-  .navbar-nav li btn {
-    margin-top: 5px;
   }
 }
 
@@ -712,3 +712,4 @@ hr {
 .font_sz p {
   font-size: 17px;
 }
+
