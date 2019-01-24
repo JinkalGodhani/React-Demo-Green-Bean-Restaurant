@@ -1,5 +1,5 @@
 import React from 'react';
-import { InfoPage } from './InfoPage';
+import { Info_Page } from './Info_Page';
 import { NavigationBar } from './NavigationBar';
 import { ImageCarousel1 } from './ImageCarousel1';
 import { About } from './About';
@@ -15,9 +15,9 @@ import { Copyright } from './Copyright';
 export class Home extends React.Component{
     render() {
         return(
-            <div className="container-fluid" id ="home" style={{paddingTop: 40}} data-spy="scroll" data-target=".navbar" data-offset="50">
+            <div className="container-fluid" id ="home" style={{paddingTop: 10}} data-spy="scroll" data-target=".navbar" data-offset="50">
                
-                <InfoPage />
+                <Info_Page />
                 <NavigationBar />
                 <ImageCarousel1 />
                 <About />
@@ -25,8 +25,8 @@ export class Home extends React.Component{
                 <Menu />
                 <Menu2 />
                 <Chef />
-                <Blog />
                 <TextCarousel />
+                <Blog />
                 <Footer />
                 <Copyright />
             </div>

@@ -25,26 +25,26 @@ export class TextCarousel extends React.Component {
 
                     <div className="text_container">
                         <p className="actual_content">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
                         <br />
-                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h4>
+                        <h6 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h6>
                         </p>
                     </div>
                     <div className="text_container">
                         <p className="actual_content">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
                         <br />
-                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h4>
+                        <h6 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h6>
                         </p>
                     </div>
                     <div className="text_container">
                         <p className="actual_content">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
                         <br />
-                        <h4 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h4>
+                        <h6 className="font_fam" style={{color: '#2ecc71'}}>Bra<span className="under_line_white" style={{marginRight: '-2px', marginLeft: '-2px'}}>in Sm</span>ith</h6>
                         </p>
                     </div>
                 </Slider>

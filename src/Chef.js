@@ -46,8 +46,8 @@ export class Chef extends React.Component {
 
         return(
             <div className="container" id="chef">
-                <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 40}}>Our Delicious</h2>
-                <h2 style={{textAlign: 'center', marginBottom: 30}}>Meet Our <span className="under_line" style={{marginRight:'-4px'}}>Exp</span>ert Chefs</h2>
+                <h3 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 40}}>Our Delicious</h3>
+                <h3 style={{textAlign: 'center', marginBottom: 30}}>Meet Our <span className="under_line" style={{marginRight:'-4px'}}>Exp</span>ert Chefs</h3>
                 <Slider {...settings}>
                     <div className="focus_img">
                         <img className="center chef_spec rounded-circle" src={chef1} alt="Chef1" />

@@ -7,31 +7,31 @@ export class Blog extends React.Component {
     render() {
         return(
             <div className="container" id="blog">
-                <h2 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 50}}>Our Blogs</h2>
-                <h2 style={{textAlign: 'center', marginBottom: 30}}>Latest N<span className="under_line" style={{marginRight: '-4px', marginLeft: '-4px'}}>ew</span>s Update</h2>
+                <h3 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 50}}>Our Blogs</h3>
+                <h3 style={{textAlign: 'center', marginBottom: 30}}>Latest N<span className="under_line" style={{marginRight: '-4px', marginLeft: '-4px'}}>ew</span>s Update</h3>
 
                 <div className="card-deck">
                     <div className="card">
                         <img className="card-img-top" src={blog1} />
                         <div className="card-body">
-                            <h4 className="card-title">
+                            <h5 className="card-title">
                                 The Tasty Food Ever
-                            </h4>
+                            </h5>
                             <h6 className="card-title">
                                 1 Jan 2017 by <span style={{color: '#2ecc71'}}>Mahedi</span>
                             </h6>
-                            <p className="card-text">
+                            <p className="card-text text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="card-footer">
                                 <a href="#" style={{color: 'black'}}>
-                                    <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
-                                    <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
+                                    <h6 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h6>
+                                    <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
-                                    <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
+                                    <i class="fa fa-comment-o" aria-hidden="true" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>
@@ -40,25 +40,25 @@ export class Blog extends React.Component {
                     <div className="card">
                         <img className="card-img-top" src={blog2} />
                         <div className="card-body">
-                            <h4 className="card-title">
+                            <h5 className="card-title">
                                 The Tasty Food Ever
-                            </h4>
+                            </h5>
                             <h6 className="card-title">
                                 1 Jan 2017 by <span style={{color: '#2ecc71'}}>Mahedi</span>
                             </h6>
-                            <p className="card-text">
+                            <p className="card-text text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="card-footer">
-                            <a href="#" style={{color: 'black'}}>
-                                <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
-                                <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
-                            </a>
-                            <a className="disappear_content" href="#" style={{color: 'black'}}>
-                                <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
-                                <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
-                            </a>
+                                <a href="#" style={{color: 'black'}}>
+                                    <h6 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h6>
+                                    <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
+                                </a>
+                                <a className="disappear_content" href="#" style={{color: 'black'}}>
+                                    <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
+                                    <i class="fa fa-comment-o" aria-hidden="true" style={{float:'right'}}></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -66,25 +66,26 @@ export class Blog extends React.Component {
                     <div className="card">
                         <img className="card-img-top" src={blog3} />
                         <div className="card-body">
-                            <h4 className="card-title">
+                            <h5 className="card-title">
                                 The Tasty Food Ever
-                            </h4>
+                            </h5>
                             <h6 className="card-title">
                                 1 Jan 2017 by <span style={{color: '#2ecc71'}}>Mahedi</span>
                             </h6>
-                            <p className="card-text">
+                            <p className="card-text text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div className="card-footer">
-                            <a href="#" style={{color: 'black'}}>
-                                <h5 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h5>
-                                <span className="glyphicon glyphicon-arrow-right" style={{float: 'left'}}></span>
-                            </a>
-                            <a className="disappear_content" href="#" style={{color:'black'}}>
-                                <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
-                                <span className="glyphicon glyphicon-comment" style={{float: 'right'}}></span>
-                            </a>
+                                <a href="#" style={{color: 'black'}}>
+                                    <h6 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h6>
+                                    <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
+
+                                </a>
+                                <a className="disappear_content" href="#" style={{color: 'black'}}>
+                                    <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
+                                    <i class="fa fa-comment-o" aria-hidden="true" style={{float:'right'}}></i>
+                                </a>
                             </div>
                         </div>
                     </div>

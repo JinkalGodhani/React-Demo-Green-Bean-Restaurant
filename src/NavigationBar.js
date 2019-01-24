@@ -27,17 +27,12 @@ export class NavigationBar extends React.Component {
         return (
 
             <div className={"container-fluid " + this.state.scrollclass} style={{ paddingLeft: 0, backgroundColor: 'white' }}>
-                <nav className="navbar navbar-expand-lg">
-
-
-                    <div className="navbar-header text-center">
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Hello</span>
-                            <span class="fa fa-bars" style={{ marginTop: 5 }}></span>
-                        </button>
-                        <a className="navbar-brand font_fam" href="#" style={{ color: '#2ecc71', marginTop: 0, float: 'left' }}>Green Bean</a>
-                    </div>
-                    <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a className="navbar-brand font_fam" href="#" style={{ color: '#2ecc71', marginTop: 0, float: 'left' }}>Green Bean</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ScrollspyNav
                             scrollTargetIds={["home", "about", "menu", "blog", "chef", "reservation", "footer"]}
                             activeNavClass="is-active"
@@ -93,11 +88,12 @@ export class NavigationBar extends React.Component {
                                     <a href="#footer">Contact</a>
                                 </li>
                                 <li className="nav-item">
-                                    <button class="btn" type="submit" style={{marginTop: -8}}>Reservation</button>
+                                    <button class="btn" type="submit" style={{ marginTop: -8 }}>Reservation</button>
                                 </li>
                             </ul>
 
                         </ScrollspyNav>
+
 
                     </div>
                 </nav>
