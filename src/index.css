@@ -267,10 +267,13 @@ p {
 
   color: #f1f1f1;
   background: rgba(0, 0, 0, 0.5); 
-  width: 100%;
   padding: 20px;
   transform: translate(0%, 25%);
   webkit-transform: translate(0%, 25%);
+}
+
+.card-text {
+  font-size: 15px;
 }
 
 .card-body {
@@ -363,6 +366,12 @@ hr {
 .text_carousel {
   width: 100%;
   height: 500px;
+}
+
+.text_carousel .container-fluid {
+  background: rgba(0, 0, 0, 0.5);
+  transform: translate(0%, 45%);
+  webkit-transform: translate(0%, 45%);
 }
 
 .text_container .actual_content {

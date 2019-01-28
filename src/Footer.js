@@ -77,10 +77,10 @@ export class Footer extends React.Component {
                             <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h6>
                             <br />
                             <ul className="icon-types">
-                                <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+                                <li><a href="#"><i className="fab fa-facebook-f fa-2x"></i></a></li>
+                                <li><a href="#"><i className="fab fa-twitter fa-2x"></i></a></li>
+                                <li><a href="#"><i className="fab fa-linkedin fa-2x"></i></a></li>
+                                <li><a href="#"><i className="fab fa-youtube fa-2x"></i></a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import para1 from './parallax1.jpeg';
+import para1 from './parallax.jpeg';
 
 var sectionStyle = {
     backgroundImage: "url(" +  para1  + ")",
@@ -18,7 +18,7 @@ export class Reservation extends React.Component {
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent', color: 'white'}}>Order</button>
                         </div>
                     </div>
                     <div class="card card1" style={{backgroundColor: 'transparent'}}>
@@ -26,7 +26,7 @@ export class Reservation extends React.Component {
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent', color: 'white'}}>Order</button>
                         </div>
                     </div>
                     <div class="card card1" style={{backgroundColor: 'transparent'}}>
@@ -34,7 +34,7 @@ export class Reservation extends React.Component {
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent', color: 'white'}}>Order</button>
                         </div>
                     </div>
                     <div class="card card1" style={{backgroundColor: 'transparent'}}>
@@ -42,7 +42,7 @@ export class Reservation extends React.Component {
                             <p class="card-text">Mon-Fri</p>
                             <p class="card-text">Breakfast</p>
                             <p class="card-text">8.00 - 12.00</p>
-                            <button class="btn1 card-text" style={{backgroundColor: 'transparent'}}>Order</button>
+                            <button class="btn1 card-text" style={{backgroundColor: 'transparent', color: 'white'}}>Order</button>
                         </div>
                     </div>
                 </div>

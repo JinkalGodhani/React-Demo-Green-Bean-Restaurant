@@ -30,8 +30,8 @@ export class Blog extends React.Component {
                                     <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
-                                    <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
-                                    <i class="fa fa-comment-o" aria-hidden="true" style={{float:'right'}}></i>
+                                    <h6 style={{float: 'right'}}>&nbsp;5</h6>
+                                    <i class="far fa-comment" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ export class Blog extends React.Component {
                                     <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
-                                    <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
-                                    <i class="fa fa-comment-o" aria-hidden="true" style={{float:'right'}}></i>
+                                    <h6 style={{float: 'right'}}>&nbsp;5</h6>
+                                    <i class="far fa-comment" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>
@@ -83,8 +83,8 @@ export class Blog extends React.Component {
 
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
-                                    <h6 style={{float: 'right'}}>&nbsp;&nbsp;5</h6>
-                                    <i class="fa fa-comment-o" aria-hidden="true" style={{float:'right'}}></i>
+                                    <h6 style={{float: 'right'}}>&nbsp;5</h6>
+                                    <i class="far fa-comment" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>
