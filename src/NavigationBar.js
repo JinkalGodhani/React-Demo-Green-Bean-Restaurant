@@ -34,7 +34,7 @@ export class NavigationBar extends React.Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ScrollspyNav
-                            scrollTargetIds={["home", "about", "menu", "blog", "chef", "reservation", "footer"]}
+                            scrollTargetIds={["home", "about", "menu", "blog", "pages", "reservation", "footer"]}
                             activeNavClass="is-active"
                             scrollDuration="100"
                             headerBackground="true"
@@ -74,7 +74,7 @@ export class NavigationBar extends React.Component {
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#chef">Pages</a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#pages">Pages</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#chef">Lorem</a></li>
                                         <li><a href="#chef">Lorem</a></li>

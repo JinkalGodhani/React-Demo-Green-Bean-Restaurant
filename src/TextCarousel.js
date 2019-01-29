@@ -18,7 +18,7 @@ export class TextCarousel extends React.Component {
             slidesToScroll: 1
           };
         return(
-            <div className="container-fluid text_carousel" style={ Style } id="contact">
+            <div className="container-fluid text_carousel" style={ Style } id="pages">
             <div className="container-fluid">
                 <div className="container text-center"  style={{marginTop: 100}}>
                 <h1 className="inverted_comma">“</h1>

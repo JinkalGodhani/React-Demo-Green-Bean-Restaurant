@@ -10,10 +10,10 @@ export class ImageCarousel1 extends React.Component {
         const settings = {
             dots: true,
             infinite: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 3000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            // autoplay: true,
+            autoplay: true,
             responsive: [
                 {
                   breakpoint: 1024,
@@ -48,8 +48,8 @@ export class ImageCarousel1 extends React.Component {
                         <div className="carousel-caption">
                             <h3>The <span style={{color: '#2ecc71'}}>delicious</span> food tastes</h3>
                             <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
-                            <button className="btn btn_1" type="submit">Order Now</button> 
-                            <button className="btn btn_1" type="submit" style={{backgroundColor: 'transparent', color:'#2ecc71', borderColor: '#2ecc71', borderWidth: 2}}>More Food</button>
+                            <button className="btn btn_1 text-center" type="submit">Order Now</button> 
+                            <button className="btn btn_1 text-center" type="submit" style={{backgroundColor: 'transparent', color:'#2ecc71', borderColor: '#2ecc71', borderWidth: 2}}>More Food</button>
                         </div>
                     </div>
                     <div className="container caro_container">

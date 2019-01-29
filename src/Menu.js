@@ -12,108 +12,114 @@ export class Menu extends React.Component {
         const settings = {
             dots: true,
             infinite: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 3000,
             slidesToShow: 3,
             slidesToScroll: 1,
-            // autoplay: true,
+            autoplay: true,
             responsive: [
                 {
-                  breakpoint: 1024,
-                  settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
                 },
                 {
-                  breakpoint: 600,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 },
                 {
-                  breakpoint: 480,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
             ]
-          };
+        };
 
-        return(
-            <div className="container container1" id="menu" style={{marginTop: 40}}>
-                <h3 className="font_fam" style={{color: '#2ecc71', textAlign: 'center'}}>Our Special Dishes</h3>
-                <h3 style={{textAlign: 'center', marginBottom:30}}>Let's Disco<span className="under_line" style={{marginLeft: '-3px'}}>ver</span> Our Food</h3>
-                
+        return (
+            <div className="container container1" id="menu" style={{ marginTop: 40 }}>
+                <h3 className="font_fam" style={{ color: '#2ecc71', textAlign: 'center' }}>Our Special Dishes</h3>
+                <h3 style={{ textAlign: 'center', marginBottom: 30 }}>Let's Disco<span className="under_line" style={{ marginLeft: '-3px' }}>ver</span> Our Food</h3>
+
                 <Slider {...settings}>
-
-                <div className="card card1">
-                    <img className="card-img-top" src={slick1} />
-                    <div className="card-body">
-                        <h5 className="card-title" style={{float: 'left'}}>
-                            Menu
-                        </h5>
-                        <h5 className="card-title" style={{float:'right'}}>
-                            $20
-                        </h5>
-                        <br />
-                        <p className="card-text text-muted" style={{marginTop: 10}}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    <div className="card_border">
+                        <div className="card card1">
+                            <img className="card-img-top" src={slick1} />
+                            <div className="card-body">
+                                <h6 className="card-title" style={{ float: 'left' }}>
+                                    Menu
+                        </h6>
+                                <h6 className="card-title" style={{ float: 'right' }}>
+                                    $20
+                        </h6>
+                                <br />
+                                <p className="card-text text-muted" style={{ marginTop: 10 }}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div className="card_border">
+                        <div className="card card1">
+                            <img className="card-img-top" src={slick2} />
 
-                <div className="card card1">
-                    <img className="card-img-top" src={slick2} />
-                    <div className="card-body">
-                        <h5 className="card-title" style={{float: 'left'}}>
-                            Menu
-                        </h5>
-                        <h5 className="card-title" style={{float:'right'}}>
-                            $20
-                        </h5>
-                        <br />
-                        <p className="card-text text-muted" style={{marginTop: 10}}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            <div className="card-body">
+                                <h6 className="card-title" style={{ float: 'left' }}>
+                                    Menu
+                        </h6>
+                                <h6 className="card-title" style={{ float: 'right' }}>
+                                    $20
+                        </h6>
+                                <br />
+                                <p className="card-text text-muted" style={{ marginTop: 10 }}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div className="card card1">
-                    <img className="card-img-top" src={slick3} />
-                    <div className="card-body">
-                        <h5 className="card-title" style={{float:'left'}}>
-                            Menu
-                        </h5>
-                        <h5 className="card-title" style={{float:'right'}}>
-                            $20
-                        </h5>
-                        <br />
-                        <p className="card-text text-muted" style={{marginTop: 10}}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    <div className="card_border">
+                        <div className="card card1">
+                            <img className="card-img-top" src={slick3} />
+                            <div className="card-body">
+                                <h6 className="card-title" style={{ float: 'left' }}>
+                                    Menu
+                        </h6>
+                                <h6 className="card-title" style={{ float: 'right' }}>
+                                    $20
+                        </h6>
+                                <br />
+                                <p className="card-text text-muted" style={{ marginTop: 10 }}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div className="card card1">
-                    <img className="card-img-top" src={slick4} />
-                    <div className="card-body">
-                        <h5 className="card-title" style={{float: 'left'}}>
-                            Menu
-                        </h5>
-                        <h5 className="card-title" style={{float:'right'}}>
-                            $20
-                        </h5>
-                        <br />
-                        <p className="card-text text-muted" style={{marginTop: 10}}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    <div className="card_border">
+                        <div className="card card1">
+                            <img className="card-img-top" src={slick4} />
+                            <div className="card-body">
+                                <h6 className="card-title" style={{ float: 'left' }}>
+                                    Menu
+                        </h6>
+                                <h6 className="card-title" style={{ float: 'right' }}>
+                                    $20
+                        </h6>
+                                <br />
+                                <p className="card-text text-muted" style={{ marginTop: 10 }}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
                 </Slider>
             </div>
         );

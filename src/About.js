@@ -9,6 +9,7 @@ export class About extends React.Component {
                     <div className="col-lg-6">
                         <h3 className="font_fam" style={{color: '#2ECC71'}}>Green Bean</h3>
                         <h3><a className="under_line" style={{marginRight: '-4px'}}>Dis</a>cover Our Restaurant</h3>
+                        <br />
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 

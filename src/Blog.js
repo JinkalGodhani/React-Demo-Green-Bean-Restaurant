@@ -11,9 +11,9 @@ export class Blog extends React.Component {
                 <h3 style={{textAlign: 'center', marginBottom: 30}}>Latest N<span className="under_line" style={{marginRight: '-4px', marginLeft: '-4px'}}>ew</span>s Update</h3>
 
                 <div className="card-deck">
-                    <div className="card">
+                    <div className="card no_border">
                         <img className="card-img-top" src={blog1} />
-                        <div className="card-body">
+                        <div className="card-body" style={{marginTop: 20}}>
                             <h5 className="card-title">
                                 The Tasty Food Ever
                             </h5>
@@ -37,9 +37,9 @@ export class Blog extends React.Component {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card no_border">
                         <img className="card-img-top" src={blog2} />
-                        <div className="card-body">
+                        <div className="card-body" style={{marginTop: 20}}>
                             <h5 className="card-title">
                                 The Tasty Food Ever
                             </h5>
@@ -63,9 +63,9 @@ export class Blog extends React.Component {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card no_border">
                         <img className="card-img-top" src={blog3} />
-                        <div className="card-body">
+                        <div className="card-body" style={{marginTop: 20}}>
                             <h5 className="card-title">
                                 The Tasty Food Ever
                             </h5>
