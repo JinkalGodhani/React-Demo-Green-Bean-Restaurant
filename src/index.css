@@ -197,6 +197,18 @@ code {
   text-align: center;
 }
 
+@media (max-width: 786px) {
+  .caro_container .carousel-caption {
+    top: 40%;
+  }
+}
+
+@media (max-width: 655px) {
+  .caro_container .carousel-caption {
+    top: 35%;
+  }
+}
+
 .row {
   margin-top: 30px;
 }
@@ -427,8 +439,20 @@ hr {
     font-size: 12px !important;
   }
 
-  .carousel-caption .btn {
-   display: none;
+  .caro_container img {
+    height: 250px;
+    width: 100%;
+  }
+
+  .caro_container .carousel-caption {
+    top: 50%;
+  }
+  
+}
+
+@media (max-width: 388px) {
+  .caro_container .carousel-caption {
+    top: 55%;
   }
 }
 
@@ -443,14 +467,8 @@ hr {
 
   .carousel-caption .btn{
     height: 20px;
-    width: 50px;
-    font-size: 7px;
-  }
-}
-
-@media (max-width: 410px) {
-  .carousel-caption .btn{
-    display: none;
+    width: 60px;
+    font-size: 10px;
   }
 }
 
@@ -596,17 +614,17 @@ hr {
     margin-bottom: 35px !important;
   } 
   .carousel-caption h3{
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .carousel-caption h5{
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .carousel-caption .btn {
-    height: 30px;
-    width: 70px;
-    font-size: 9px;
+    height: 35px;
+    width: 90px;
+    font-size: 13px;
   }
 }
 
