@@ -95,12 +95,9 @@ code {
   font-size: 18px;
 }
 
-.navbar-nav li a:hover {
+.hover_effect:hover {
   color: #2ECC71;
-}
-
-.navbar-nav li a:after {
-  color: black;
+  border-bottom: 2px bold !important;
 }
 
 .navbar .navbar-brand {
@@ -319,8 +316,24 @@ p {
 }
 
 .chef_spec {
+  height: 200px; 
+}
+
+.focus_img {
+  padding-right: 25px;
+}
+
+.slick-slide.slick-center h5 {
+  display: block !important;
+}
+
+.slick-slide.slick-center h6 {
+  display: block !important;
+}
+
+.slick-slide.slick-center .chef_spec {
   height: 250px;
-  width: 100px;
+  width: 350px;
 }
 
 @media (max-width:600px){
@@ -762,3 +775,4 @@ hr {
     webkit-transform: translate(0%, 0%);
 }
 }
+

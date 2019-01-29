@@ -11,7 +11,7 @@ var Style = {
 export class Menu2 extends React.Component {
     render() {
         return (
-            <div className="container-fluid cont" style={Style} id="pages">
+            <div className="container-fluid cont" style={Style} id="nocolor">
                 <div className="cont1">
                     <div className="container">
                         <div className="row" style={{marginBottom: 20}}>

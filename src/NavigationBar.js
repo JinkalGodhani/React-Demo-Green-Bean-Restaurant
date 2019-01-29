@@ -27,6 +27,7 @@ export class NavigationBar extends React.Component {
         return (
 
             <div className={"container-fluid " + this.state.scrollclass} style={{ paddingLeft: 0, backgroundColor: 'white' }}>
+            <div className="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="navbar-brand font_fam" href="#" style={{ color: '#2ecc71', marginTop: 0, float: 'left' }}>Green Bean</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,14 +35,14 @@ export class NavigationBar extends React.Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ScrollspyNav
-                            scrollTargetIds={["home", "about", "menu", "blog", "pages", "reservation", "footer"]}
+                            scrollTargetIds={["home", "about", "menu", "blog", "pages", "reservation", "footer", "nocolor", "nocolor2"]}
                             activeNavClass="is-active"
                             scrollDuration="100"
                             headerBackground="true"
                         >
 
                             <ul className="navbar-nav text-center" style={{ margin: '0 auto' }}>
-                                <li class="dropdown">
+                                <li class="dropdown hover_effect">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#home">Home</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#home">Lorem</a></li>
@@ -49,7 +50,7 @@ export class NavigationBar extends React.Component {
                                         <li><a href="#home">Lorem</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown hover_effect">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#about">About</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#about">Lorem</a></li>
@@ -57,7 +58,7 @@ export class NavigationBar extends React.Component {
                                         <li><a href="#about">Lorem</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown hover_effect">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#menu">Menu</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#menu">Lorem</a></li>
@@ -65,7 +66,7 @@ export class NavigationBar extends React.Component {
                                         <li><a href="#menu">Lorem</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown hover_effect">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#blog">Blog</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#blog">Lorem</a></li>
@@ -73,7 +74,7 @@ export class NavigationBar extends React.Component {
                                         <li><a href="#blog">Lorem</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown hover_effect">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#pages">Pages</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#chef">Lorem</a></li>
@@ -81,11 +82,17 @@ export class NavigationBar extends React.Component {
                                         <li><a href="#chef">Lorem</a></li>
                                     </ul>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item hover_effect">
                                     <a href="#reservation">Reservation</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item hover_effect">
                                     <a href="#footer">Contact</a>
+                                </li>
+                                <li className="nav-item hover_effect">
+                                    <a href="#nocolor" style={{display: 'none'}}>No Color-1</a>
+                                </li>
+                                <li className="nav-item hover_effect">
+                                    <a href="#nocolor2" style={{display: 'none'}}>No Color-2</a>
                                 </li>
                                 <li className="nav-item">
                                     <button class="btn" type="submit" style={{ marginTop: -8 }}>Reservation</button>
@@ -97,6 +104,7 @@ export class NavigationBar extends React.Component {
 
                     </div>
                 </nav>
+                </div>
             </div>
         );
     }
