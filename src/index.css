@@ -344,8 +344,8 @@ p {
 }
 
 .slick-slide.slick-center .chef_spec {
-  height: 250px;
-  width: 350px;
+  /* height: 250px;
+  width: 350px; */
 }
 
 @media (max-width:600px){
@@ -543,7 +543,8 @@ hr {
 }
 
 .card_border {
-  padding-right: 25px;
+  padding-right: 13px;
+  padding-left: 13px;
 }
 
 .card_border .card {
@@ -714,6 +715,12 @@ hr {
 
 .is-active {
   color: #2ECC71 !important;
+  /* border-bottom: #2ECC71;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 2px;
+    border-style: solid; */
 }
 
 
