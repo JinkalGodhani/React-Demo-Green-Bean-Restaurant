@@ -13,7 +13,7 @@ export class ImageCarousel1 extends React.Component {
             autoplaySpeed: 3000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
+            // autoplay: true,
             responsive: [
                 {
                   breakpoint: 1024,

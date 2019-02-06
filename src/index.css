@@ -22,8 +22,8 @@ code {
 }
 
 .chef {
-  height: 375px !important;
-  width: 400px !important;
+  height: 400px !important;
+  width: 470px !important;
 }
 
 @media (max-width:991px) {
@@ -344,8 +344,8 @@ p {
 }
 
 .slick-slide.slick-center .chef_spec {
-  /* height: 250px;
-  width: 350px; */
+  height: 250px;
+  width: 350px;
 }
 
 @media (max-width:600px){
@@ -440,7 +440,7 @@ hr {
   }
 
   .caro_container img {
-    height: 250px;
+    height: 200px;
     width: 100%;
   }
 

@@ -27,6 +27,13 @@ export class Menu extends React.Component {
                     }
                 },
                 {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
                     breakpoint: 600,
                     settings: {
                         slidesToShow: 1,
@@ -56,12 +63,12 @@ export class Menu extends React.Component {
                                 <h6 className="card-title" style={{ float: 'left' }}>
                                     Menu
                         </h6>
-                                <h6 className="card-title" style={{ float: 'right' }}>
+                                <h6 className="card-title" style={{ float: 'right', marginRight: -19 }}>
                                     $20
                         </h6>
                                 <br />
                                 <p className="card-text text-muted" style={{ marginTop: 10 }}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet, consectetur.
                         </p>
                             </div>
                         </div>
@@ -74,12 +81,12 @@ export class Menu extends React.Component {
                                 <h6 className="card-title" style={{ float: 'left' }}>
                                     Menu
                         </h6>
-                                <h6 className="card-title" style={{ float: 'right' }}>
+                                <h6 className="card-title" style={{ float: 'right', marginRight: -19 }}>
                                     $20
                         </h6>
                                 <br />
                                 <p className="card-text text-muted" style={{ marginTop: 10 }}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet, consectetur.
                         </p>
                             </div>
                         </div>
@@ -92,12 +99,12 @@ export class Menu extends React.Component {
                                 <h6 className="card-title" style={{ float: 'left' }}>
                                     Menu
                         </h6>
-                                <h6 className="card-title" style={{ float: 'right' }}>
+                                <h6 className="card-title" style={{ float: 'right', marginRight: -19 }}>
                                     $20
                         </h6>
                                 <br />
                                 <p className="card-text text-muted" style={{ marginTop: 10 }}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet, consectetur.
                         </p>
                             </div>
                         </div>
@@ -110,12 +117,12 @@ export class Menu extends React.Component {
                                 <h6 className="card-title" style={{ float: 'left' }}>
                                     Menu
                         </h6>
-                                <h6 className="card-title" style={{ float: 'right' }}>
+                                <h6 className="card-title" style={{ float: 'right', marginRight: -19 }}>
                                     $20
                         </h6>
                                 <br />
                                 <p className="card-text text-muted" style={{ marginTop: 10 }}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet, consectetur.
                         </p>
                             </div>
                         </div>

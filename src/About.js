@@ -1,5 +1,5 @@
 import React from 'react';
-import chef from './chef.jpeg';
+import chef from './chef.jpg';
 
 export class About extends React.Component {
     render() {
