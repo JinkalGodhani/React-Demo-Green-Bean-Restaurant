@@ -5,7 +5,8 @@ import food_icon from './food_icon.jpg';
 var Style = {
     backgroundImage: "url(" + menu + ")",
     marginTop: 50,
-    backgroundAttachment: "fixed"
+    backgroundAttachment: "fixed", 
+    marginBottom: 40
 };
 
 export class Menu2 extends React.Component {

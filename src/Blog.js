@@ -27,11 +27,11 @@ export class Blog extends React.Component {
                             <div className="card-footer">
                                 <a href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h6>
-                                    <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
+                                    <i className="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'right'}}>&nbsp;5</h6>
-                                    <i class="far fa-comment" style={{float:'right'}}></i>
+                                    <i className="far fa-comment" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>
@@ -53,11 +53,11 @@ export class Blog extends React.Component {
                             <div className="card-footer">
                                 <a href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h6>
-                                    <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
+                                    <i className="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'right'}}>&nbsp;5</h6>
-                                    <i class="far fa-comment" style={{float:'right'}}></i>
+                                    <i className="far fa-comment" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>
@@ -79,12 +79,12 @@ export class Blog extends React.Component {
                             <div className="card-footer">
                                 <a href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'left'}}>Read More&nbsp;&nbsp;</h6>
-                                    <i class="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
+                                    <i className="fa fa-arrow-right" aria-hidden="true" style={{float: 'left'}}></i>
 
                                 </a>
                                 <a className="disappear_content" href="#" style={{color: 'black'}}>
                                     <h6 style={{float: 'right'}}>&nbsp;5</h6>
-                                    <i class="far fa-comment" style={{float:'right'}}></i>
+                                    <i className="far fa-comment" style={{float:'right'}}></i>
                                 </a>
                             </div>
                         </div>

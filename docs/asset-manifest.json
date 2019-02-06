@@ -1,7 +1,7 @@
 {
-  "main.css": "./static/css/main.707fda35.chunk.css",
-  "main.js": "./static/js/main.def088c6.chunk.js",
-  "main.js.map": "./static/js/main.def088c6.chunk.js.map",
+  "main.css": "./static/css/main.a03e2063.chunk.css",
+  "main.js": "./static/js/main.2dd1e533.chunk.js",
+  "main.js.map": "./static/js/main.2dd1e533.chunk.js.map",
   "static/css/1.dc93e7d1.chunk.css": "./static/css/1.dc93e7d1.chunk.css",
   "static/js/1.6883d768.chunk.js": "./static/js/1.6883d768.chunk.js",
   "static/js/1.6883d768.chunk.js.map": "./static/js/1.6883d768.chunk.js.map",
@@ -12,7 +12,7 @@
   "static/media/carousel1_1.jpeg": "./static/media/carousel1_1.8603ad41.jpeg",
   "static/media/carousel1_2.jpeg": "./static/media/carousel1_2.27773449.jpeg",
   "static/media/carousel1_3.jpeg": "./static/media/carousel1_3.5222c7b7.jpeg",
-  "static/media/chef.jpeg": "./static/media/chef.02f3506c.jpeg",
+  "static/media/chef.jpg": "./static/media/chef.20fd23c9.jpg",
   "static/media/parallax.jpeg": "./static/media/parallax.abed0cea.jpeg",
   "static/media/slick_slider-1.jpeg": "./static/media/slick_slider-1.52e69cb8.jpeg",
   "static/media/slick_slider-2.jpeg": "./static/media/slick_slider-2.883161da.jpeg",
@@ -28,10 +28,10 @@
   "static/media/blog1.jpeg": "./static/media/blog1.57d653c3.jpeg",
   "static/media/logo.svg": "./static/media/logo.ee7cd8ed.svg",
   "static/media/blog3.jpeg": "./static/media/blog3.932f57fb.jpeg",
-  "static/media/slick-theme.css": "./static/media/slick.ced611da.eot",
-  "static/css/main.707fda35.chunk.css.map": "./static/css/main.707fda35.chunk.css.map",
+  "static/media/slick-theme.css": "./static/media/slick.d41f55a7.ttf",
+  "static/css/main.a03e2063.chunk.css.map": "./static/css/main.a03e2063.chunk.css.map",
   "static/css/1.dc93e7d1.chunk.css.map": "./static/css/1.dc93e7d1.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.4ff4c326477e4a1087374f0c001028ee.js": "./precache-manifest.4ff4c326477e4a1087374f0c001028ee.js",
+  "precache-manifest.79f7ee901725e0b0c7a798cfd0688b0f.js": "./precache-manifest.79f7ee901725e0b0c7a798cfd0688b0f.js",
   "service-worker.js": "./service-worker.js"
 }

@@ -12,7 +12,7 @@ export class Chef extends React.Component {
             dots: true,
             infinite: true,
             centerMode: true,
-            centerPadding: '10px',
+            // centerPadding: '10px',
             autoplaySpeed: 2000,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -45,8 +45,8 @@ export class Chef extends React.Component {
           };
 
         return(
-            <div className="container" id="pages">
-                <h3 className="font_fam" style={{color: '#2ecc71', textAlign: 'center', marginTop: 40}}>Our Delicious</h3>
+            <div className="container fontsize" id="pages">
+                <h3 className="font_fam" style={{color: '#2ecc71', textAlign: 'center'}}>Our Delicious</h3>
                 <h3 style={{textAlign: 'center', marginBottom: 30}}>Meet Our <span className="under_line" style={{marginRight:'-4px'}}>Exp</span>ert Chefs</h3>
                 <Slider {...settings}>
                     <div className="focus_img">
