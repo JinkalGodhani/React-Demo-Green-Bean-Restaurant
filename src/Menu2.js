@@ -13,8 +13,8 @@ export class Menu2 extends React.Component {
     render() {
         return (
             <div className="container-fluid cont" style={Style} id="nocolor">
-                <div className="cont1">
-                    <div className="container">
+                {/* <div className="cont1"> */}
+                    <div className="container cont1">
                         <div className="row" style={{marginBottom: 20}}>
                             <div className="col-lg-1">
                             </div>
@@ -74,7 +74,7 @@ export class Menu2 extends React.Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         );
     }

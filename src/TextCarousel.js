@@ -21,9 +21,6 @@ export class TextCarousel extends React.Component {
             <div className="container-fluid text_carousel" style={ Style } id="nocolor2">
             <div className="container-fluid">
                 <div className="container text-center"  style={{marginTop: 100}}>
-                <h2 style={{color: 'transparent'}}>-----</h2>
-                <h2 style={{color: 'transparent'}}>-----</h2>
-                <h2 style={{color: 'transparent'}}>-----</h2>
                 <h1 className="inverted_comma">“</h1>
                 <Slider {...settings}>
 
@@ -52,10 +49,6 @@ export class TextCarousel extends React.Component {
                         </p>
                     </div>
                 </Slider>
-                <h2 style={{color: 'transparent'}}>-----</h2>
-                <h2 style={{color: 'transparent'}}>-----</h2>
-                <h2 style={{color: 'transparent'}}>-----</h2>
-                <h2 style={{color: 'transparent'}}>-----</h2>
                 </div>
             </div>
             </div>
