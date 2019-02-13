@@ -478,7 +478,7 @@ hr {
 }
 
 .text_carousel .container-fluid {
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   transform: translate(0%, 45%);
   webkit-transform: translate(0%, 45%);
 }
@@ -488,6 +488,10 @@ hr {
   text-align: center; 
   width: 100%;
   padding: 20px;
+}
+
+.actual_content {
+  font-size: 20px;
 }
 
 @media (max-width: 700px) {
